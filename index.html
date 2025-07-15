@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- GOOGLE FONT -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- FONT AWESOME CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" 
-    />
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- CONNECT CSS -->
     <link rel="stylesheet" href="./style.css">
@@ -34,7 +35,17 @@
 
             <ul class="nav-items">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
+                <li class="product-li"><a href="#">Product
+                <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-nav-items">
+                    <li><a href=""></a>Product 1</li>
+                    <li><a href=""></a>Product 2</li>
+                    <li><a href=""></a>Product 3</li>
+                    <li><a href=""></a>Product 4</li>
+                    <li><a href=""></a>Product 5</li>
+                </ul>
+                </li>
                 <li><a href="#backpack-section">Backpack</a></li>
                 <li><a href="#contact-section">Contact Us</a></li>
             </ul>
@@ -45,104 +56,110 @@
             <!--BANNER LEFT-->
             <div>
                 <h2>Mi LED TV 4A PRO 32</h2>
-                <p>Experience stunning HD visuals on a 32-inch display with built-in Android TV and PatchWall.  
-                Enjoy powerful 20W stereo speakers, Chromecast, and Google Assistant for a smart TV experience.
+                <p>Experience stunning HD visuals on a 32-inch display with built-in Android TV and PatchWall.
+                    Enjoy powerful 20W stereo speakers, Chromecast, and Google Assistant for a smart TV experience.
                 </p>
                 <span class="banner-price">$1289</span>
                 <br>
                 <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
 
-                <!--BANNER RIGHT-->  
+                <!--BANNER RIGHT-->
             </div>
             <img src="./assets/images/banner-images/tv.png" alt="">
         </section>
 
-     <!--CATEGORY SECTION-->
-<section class="categories">
-    <div class="container">
-        <h2 class="common-section-title">Categories</h2>
-        <div class="categories-card-container">
-            <div class="category-card">
-                <h3>Watch</h3>
-                <img src="./assets/images/categories/watch.png" alt="">
-            </div> 
-            <div class="category-card">
-                <h3>Bag</h3>
-                <img src="./assets/images/categories/bag.png" alt="">
+        <!--CATEGORY SECTION-->
+        <section class="categories">
+            <div class="container">
+                <h2 class="common-section-title">Categories</h2>
+                <div class="categories-card-container">
+                    <div class="category-card">
+                        <h3>Watch</h3>
+                        <img src="./assets/images/categories/watch.png" alt="">
+                    </div>
+                    <div class="category-card">
+                        <h3>Bag</h3>
+                        <img src="./assets/images/categories/bag.png" alt="">
+                    </div>
+                    <div class="category-card">
+                        <h3>Shoes</h3>
+                        <img src="./assets/images/categories/shoes.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="category-card">
-                <h3>Shoes</h3>
-                <img src="./assets/images/categories/shoes.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <!--SHOES AND BAG SECTION-->
         <section class="shoes-bag-parent">
-        <!--SHOES SECTION-->
-        <div class="shoes-section container">
-            <div class="shoes-bag-section-title-parent">
-                <h2>Shoes</h2>
-                <p>See All</p>
+            <!--SHOES SECTION-->
+            <div class="shoes-section container">
+                <div class="shoes-bag-section-title-parent">
+                    <h2>Shoes</h2>
+                    <p>See All</p>
+                </div>
+                <div class="shoe-card-container">
+                    <div class="shoe-card">
+                        <img src="./assets/images/shoes/shoe-1.png" alt="">
+                        <h2>Reebok Dart Men’s Shoes</h2>
+                        <p>Experience ultimate comfort and iconic streetwear style with the Yeezy Boost 350 V2. Designed
+                            with Primeknit fabric and responsive Boost cushioning.</p>
+                        <span class="card-price">$1289</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="shoe-card">
+                        <img src="./assets/images/shoes/shoe-2.png" alt="">
+                        <h2>Reebok Pump</h2>
+                        <p>Designed for everyday comfort and stylish performance, the Reebok Pump offers a snug fit with
+                            lightweight support. Perfect for running, training, or casual wear.</p>
+                        <span class="card-price">$799</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="shoe-card">
+                        <img src="./assets/images/shoes/shoe-3.png" alt="">
+                        <h2>Reebok All Terrain</h2>
+                        <p>Built for comfort and performance, the Nike Air Max All Terrain is your go-to shoe for both
+                            urban streets and rugged trails. Featuring responsive cushioning and durable traction.</p>
+                        <span class="card-price">$699</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
             </div>
-            <div class="shoe-card-container">
-                <div class="shoe-card">
-                    <img src="./assets/images/shoes/shoe-1.png" alt="">
-                    <h2>Reebok Dart Men’s Shoes</h2>
-                    <p>Experience ultimate comfort and iconic streetwear style with the Yeezy Boost 350 V2. Designed with Primeknit fabric and responsive Boost cushioning.</p>
-                    <span class="card-price">$1289</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                 <div class="shoe-card">
-                    <img src="./assets/images/shoes/shoe-2.png" alt="">
-                    <h2>Reebok Pump</h2>
-                    <p>Designed for everyday comfort and stylish performance, the Reebok Pump offers a snug fit with lightweight support. Perfect for running, training, or casual wear.</p>
-                    <span class="card-price">$799</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                 <div class="shoe-card">
-                    <img src="./assets/images/shoes/shoe-3.png" alt="">
-                    <h2>Reebok All Terrain</h2>
-                    <p>Built for comfort and performance, the Nike Air Max All Terrain is your go-to shoe for both urban streets and rugged trails. Featuring responsive cushioning and durable traction.</p>
-                    <span class="card-price">$699</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-        </div>
         </section>
 
         <!--BAG SECTION-->
         <section class="shoes-bag-parent"> <!--same class in starting of shoes section-->
-         <div class="shoes-section container" id="backpack-section">
-            <div class="shoes-bag-section-title-parent">
-                <h2>Backpack</h2>
-                <p>See All</p>
+            <div class="shoes-section container" id="backpack-section">
+                <div class="shoes-bag-section-title-parent">
+                    <h2>Backpack</h2>
+                    <p>See All</p>
+                </div>
+                <div class="shoe-card-container">
+                    <div class="shoe-card">
+                        <img src="./assets/images/bags/bag-1.png" alt="">
+                        <h2>Ison Backpack</h2>
+                        <p>Crafted for both style and durability, the Ison Backpack features a sleek design, spacious
+                            storage, and premium materials—ideal for professionals and travelers who demand more.</p>
+                        <span class="card-price">$1289</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="shoe-card">
+                        <img src="./assets/images/bags/bag-2.png" alt="">
+                        <h2>Biaowang Backpack</h2>
+                        <p>Lightweight, stylish, and functional—the Biaowang Backpack is perfect for daily commutes or
+                            weekend getaways. Features padded straps, spacious compartments, and a modern design.</p>
+                        <span class="card-price">$799</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="shoe-card">
+                        <img src="./assets/images/bags/bag-3.png" alt="">
+                        <h2>Dxyizu WS54 Smart</h2>
+                        <p>Stay organized and travel smart with the Dxyizu WS54. Featuring USB charging support, padded
+                            compartments, and water-resistant fabric—perfect for work, school, or travel.</p>
+                        <span class="card-price">$699</span>
+                        <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
             </div>
-            <div class="shoe-card-container">
-                <div class="shoe-card">
-                    <img src="./assets/images/bags/bag-1.png" alt="">
-                    <h2>Ison Backpack</h2>
-                    <p>Crafted for both style and durability, the Ison Backpack features a sleek design, spacious storage, and premium materials—ideal for professionals and travelers who demand more.</p>
-                    <span class="card-price">$1289</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                 <div class="shoe-card">
-                    <img src="./assets/images/bags/bag-2.png" alt="">
-                    <h2>Biaowang Backpack</h2>
-                    <p>Lightweight, stylish, and functional—the Biaowang Backpack is perfect for daily commutes or weekend getaways. Features padded straps, spacious compartments, and a modern design.</p>
-                    <span class="card-price">$799</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-                 <div class="shoe-card">
-                    <img src="./assets/images/bags/bag-3.png" alt="">
-                    <h2>Dxyizu WS54 Smart</h2>
-                    <p>Stay organized and travel smart with the Dxyizu WS54. Featuring USB charging support, padded compartments, and water-resistant fabric—perfect for work, school, or travel.</p>
-                    <span class="card-price">$699</span>
-                    <button class="panda-btn">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-        </div>
         </section>
 
         <!--CONTACT SECTION-->
