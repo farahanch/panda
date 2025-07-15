@@ -147,7 +147,57 @@ nav {
 
 /* SHOES AND BAGS STYLING */
 
+.shoes-bag-parent{
+    background: rgb(244, 244, 244);
+}
 
+.shoes-bag-section-title-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-bag-section-title-parent h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.shoes-bag-section-title-parent p{
+    font-size: 20px;
+    color: #FF9D00;
+}
 
 /* SHOES  STYLING */
 
+.shoes-section{
+    background: rgb(244, 244, 244);
+    padding: 50px 0;
+}
+
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.shoe-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-price {
+    display: block;
+    font-weight: 600px;
+    font-size: 22px;
+    margin-bottom: 12px;
+    
+}
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+}
+
+.shoe-card .panda-btn{
+    background: black;
+}
